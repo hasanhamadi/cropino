@@ -11,14 +11,12 @@ dependencies:
     sdk: flutter
   webview_flutter: ^4.10.0
   cupertino_icons: ^1.0.8
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
   flutter_launcher_icons: ^0.14.4
 
-# بخش تنظیمات آیکون (دقیقاً از ابتدای خط شروع شود)
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
@@ -28,7 +26,5 @@ flutter_launcher_icons:
 
 flutter:
   uses-material-design: true
-
-  # معرفی فایل عکس به فلاتر
   assets:
     - assets/app_icon.jpg
