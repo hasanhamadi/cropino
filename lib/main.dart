@@ -38,7 +38,7 @@ class _KhanoumiStyleLauncherState extends State<KhanoumiStyleLauncher> {
   }
 
   Future<void> _launchInAppBrowser() async {
-    final Uri url = Uri.parse('https://www.khanoumi.com/');
+    final Uri url = Uri.parse('https://cropino.shop/');
 
     try {
       if (await canLaunchUrl(url)) {
